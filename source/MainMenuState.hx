@@ -82,7 +82,7 @@ class MainMenuState extends MusicBeatState
 		personajes = new FlxSprite(0,0);
 		personajes.loadGraphic(Paths.image('menumod/personajes/' + optionShit[curSelected]));
 		personajes.scrollFactor.set(0, 0);
-		personajes.animation.add('idlemenu', 'idle', 24, true)
+		personajes.animation.add('idlemenu', 'idle', 24, true);
 		personajes.setGraphicSize(Std.int(personajes.width * 1));
 		personajes.antialiasing = ClientPrefs.globalAntialiasing;
 		add(personajes);
